@@ -1,0 +1,22 @@
+query Continent {
+  countries {
+    name
+    capital
+    emoji
+  }
+}
+
+query CountriesWithEUR {
+  countries(filter: { currency: { eq: "EUR" } }) {
+    code
+    name
+  }
+}
+
+query CountriesBeginWithTheLetterL {
+  countries(filter: { continent: { regex: "^L" } }) {
+    code
+    name
+    currency
+  }
+}
