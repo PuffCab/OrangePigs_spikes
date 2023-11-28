@@ -1,0 +1,39 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot test 1`] = `
+<div>
+  <h1>
+    Contact
+  </h1>
+  <span
+    data-testid="span"
+    style="visibility: hidden;"
+  >
+    Hi 
+    , message sent to 
+  </span>
+  <form
+    action=""
+  >
+    <input
+      id="name"
+      name="name"
+      placeholder="name"
+      type="text"
+      value=""
+    />
+    <input
+      id="email"
+      name="email"
+      placeholder="email"
+      type="text"
+      value=""
+    />
+  </form>
+  <button
+    data-testid="test-button"
+  >
+    Send
+  </button>
+</div>
+`;
